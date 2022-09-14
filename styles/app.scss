@@ -2,8 +2,56 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "cascadia_code_regular";
+  src: url("/fonts/cascadia-webfont.woff2") format("woff2"),
+    url("/fonts/cascadia-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gradient-1__inner {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #01aaad 0%,
+    #01aaad 31.25%,
+    rgba(243, 127, 127, 0) 88%
+  );
+}
+
+.app-hero-area {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, #e2e8f0 50%);
+}
+
+.my-image {
+  border-radius: 32% 68% 60% 40% / 48% 29% 71% 52%;
+}
+
+// .language-javascript{
+//     font-size: 1.2em;
+//     white-space: pre;
+//     line-height: 1.9em;
+//     tab-size: 2;
+// }
+
+.syntax-highlighter {
+  border: none !important;
+  padding: 0 !important;
+  code {
+    font-size: 16px !important;
+    line-height: 1.9em !important;
+    tab-size: 2 !important;
+  }
+}
+
 body {
   @apply text-slate-800;
+}
+
+.wrapper {
+  @apply max-w-[1170px];
+  @apply px-10 md:p-0;
+  @apply mx-auto;
 }
 
 .name-marker {

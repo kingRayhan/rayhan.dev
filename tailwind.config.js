@@ -4,7 +4,11 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        code: ["cascadia_code_regular", "monospace"],
+      },
+    },
   },
   plugins: [require("@tailwindcss/typography")],
 };

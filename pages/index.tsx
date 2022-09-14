@@ -1,4 +1,9 @@
+import ConditionallyRender from "@/components/ConditionallyRender";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Navbar from "@/components/Navbar";
+import Stacks from "@/components/Stacks";
+import WhatIDo from "@/components/WhatIDo";
 import type { NextPage } from "next";
 import Head from "next/head";
 
@@ -14,9 +19,15 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className=" max-w-4xl mx-auto px-6 md:p-0">
+      <Navbar />
+      <main>
         <Hero />
+        <WhatIDo />
+        <Stacks />
       </main>
+      <div className="bg-slate-800">
+        <Footer />
+      </div>
     </>
   );
 };
