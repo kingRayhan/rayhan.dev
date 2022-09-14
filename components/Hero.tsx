@@ -34,7 +34,7 @@ const Hero = () => {
                 <a
                   target="_blank"
                   rel="noreferrer"
-                  className="text-blue-600"
+                  className="text-blue-600 hover:underline"
                   href="https://www.youtube.com/channel/UCxFDOHULIH3z-wDsR77-_0Q"
                 >
                   return0.codes
