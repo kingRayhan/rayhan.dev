@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <header className="relative overflow-hidden app-hero-area">
+    <div id="home" className="relative overflow-hidden app-hero-area">
       {/* Gradient 1 */}
       <div className="gradient-1__inner h-[600px] w-[600px] absolute -bottom-10 -left-[420px]"></div>
       <div className="wrapper">
@@ -75,7 +75,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

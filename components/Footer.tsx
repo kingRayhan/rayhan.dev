@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper" id="contact">
       <div className="grid justify-between grid-cols-2 py-20">
         <div>
           <h2 className="text-2xl font-semibold text-white font-code">

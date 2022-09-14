@@ -16,7 +16,7 @@ const Item: React.FC<ItemProp> = ({ image, label }) => {
 
 const WhatIDo = () => {
   return (
-    <div className="grid items-center grid-cols-2 gap-28 wrapper">
+    <div id="about" className="grid items-center grid-cols-2 gap-28 wrapper">
       <div>
         <img
           className="object-cover"
