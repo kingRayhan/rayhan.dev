@@ -5,7 +5,7 @@ const Hero = () => {
     <header className="relative overflow-hidden app-hero-area">
       {/* Gradient 1 */}
       <div className="gradient-1__inner h-[600px] w-[600px] absolute -bottom-10 -left-[420px]"></div>
-      <div className="bg-white wrapper">
+      <div className="wrapper">
         <div className="grid items-center min-h-screen gap-10 md:grid-cols-2">
           <div>
             <div className="md:my-20">
