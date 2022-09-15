@@ -14,7 +14,7 @@ const Navbar = () => {
   //   "bg-white shadow-sm": scrollHeight > 220,
   // })}
   return (
-    <div className={ClassNames("absolute top-0 z-50 w-full py-10")}>
+    <div className={ClassNames("lg:absolute top-0 z-50 w-full py-10")}>
       <div className="flex justify-between wrapper">
         <div>
           <Link href={"/"}>

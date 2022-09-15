@@ -68,13 +68,15 @@ const Hero = () => {
             </div>
           </div>
           <div className="flex items-center justify-center order-first h-full lg:bg-slate-200 md:order-none">
-            <Image
-              className="image object-cover md:w-[32rem] md:h-[32rem] w-20 h-20 my-image"
-              src="/images/rayhan.jpg"
-              alt="My Photo"
-              width={400}
-              height={400}
-            />
+            <div className="md:w-[32rem] md:h-[32rem] w-48 h-48 relative overflow-hidden">
+              <Image
+                className="object-cover image my-image"
+                src="/images/rayhan.jpg"
+                alt="My Photo"
+                priority={true}
+                layout="fill"
+              />
+            </div>
           </div>
         </div>
       </div>
