@@ -17,6 +17,31 @@ const Home: NextPage = () => {
           content="I am here for you to build an awesome application"
         />
         <link rel="icon" href="/favicon.ico" />
+        {/* OG */}
+        <meta property="og:title" content="I am Rayhan" />
+        <meta
+          property="og:description"
+          content="I am here for you to build an awesome application"
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/kingrayhan/image/upload/f_auto,q_auto/v1663233070/my-website/og.png"
+        />
+        <meta property="og:url" content="https://kingrayhan.vercel.app/" />
+        <meta property="og:type" content="website" />
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@rayhan095" />
+        <meta name="twitter:creator" content="@rayhan095" />
+        <meta name="twitter:title" content="I am Rayhan" />
+        <meta
+          name="twitter:description"
+          content="I am here for you to build an awesome application"
+        />
+        <meta
+          name="twitter:image"
+          content="https://res.cloudinary.com/kingrayhan/image/upload/f_auto,q_auto/v1663233070/my-website/og.png"
+        />
       </Head>
 
       <Navbar />
