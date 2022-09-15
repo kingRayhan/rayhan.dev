@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Gradient 1 */}
       <div className="gradient-1__inner h-[600px] w-[600px] absolute -bottom-10 -left-[420px] hidden lg:block"></div>
       <div className="wrapper">
-        <div className="grid items-center lg:min-h-screen md:gap-10 md:grid-cols-2">
+        <div className="grid items-center min-h-[80vh] xl:min-h-screen md:gap-10 md:grid-cols-2">
           <div>
             <div className="my-12">
               <h2 className="text-4xl font-semibold text-center lg:text-left">

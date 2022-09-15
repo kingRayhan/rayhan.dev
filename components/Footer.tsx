@@ -81,7 +81,9 @@ const Footer = () => {
         </div>
         <div className="mt-10 lg:mt-0">
           <a
-            href="#"
+            target="_blank"
+            rel="noreferrer"
+            href="mailto:rayhan.dev.bd@gmail.com"
             className="inline-block px-6 py-2 text-xl bg-yellow-500 lg:float-right font-code"
           >
             Mail Me
