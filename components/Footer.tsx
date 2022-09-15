@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="wrapper" id="contact">
-      <div className="grid justify-between grid-cols-2 py-20">
+      <div className="grid justify-between py-20 lg:grid-cols-2">
         <div>
           <h2 className="text-2xl font-semibold text-white font-code">
             I am ready to hear from you
@@ -79,10 +79,10 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div>
+        <div className="mt-10 lg:mt-0">
           <a
             href="#"
-            className="inline-block float-right px-6 py-2 text-xl bg-yellow-500 font-code"
+            className="inline-block px-6 py-2 text-xl bg-yellow-500 lg:float-right font-code"
           >
             Mail Me
           </a>

@@ -20,7 +20,9 @@
 }
 
 .app-hero-area {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, #e2e8f0 50%);
+  @media screen and (min-width: 768px) {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, #e2e8f0 50%);
+  }
 }
 
 .my-image {
@@ -43,8 +45,23 @@ body {
 
 .wrapper {
   @apply max-w-[1170px];
-  @apply px-10 md:p-0;
+  @apply px-4;
   @apply mx-auto;
+}
+
+.image-container {
+  width: 100%;
+
+  > div {
+    position: unset !important;
+  }
+
+  .image {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+  }
 }
 
 .name-marker {

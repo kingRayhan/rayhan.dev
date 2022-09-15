@@ -4,7 +4,7 @@ import { vs } from "react-syntax-highlighter/dist/cjs/styles/prism";
 
 const Stacks = () => {
   return (
-    <div className="flex flex-col gap-20 py-20" id="stack">
+    <div className="flex-col hidden gap-20 py-20 lg:flex" id="stack">
       <div className="wrapper">
         <div>
           <h3 className="mb-4 text-xl font-semibold font-code">
@@ -12,7 +12,7 @@ const Stacks = () => {
           </h3>
           <SyntaxHighlighter
             className="syntax-highlighter"
-            language="javascript"
+            language="typescript"
             wrapLines={true}
             style={vs}
           >

@@ -21,7 +21,7 @@ const Navbar = () => {
             <a className="text-2xl font-semibold font-code">Rayhan</a>
           </Link>
         </div>
-        <div className="flex items-center justify-between gap-11">
+        <div className="items-center justify-between hidden lg:flex gap-11">
           <a className="font-code" href="#home">
             Home
           </a>

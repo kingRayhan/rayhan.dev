@@ -1,19 +1,20 @@
+import Image from "next/image";
 import React from "react";
 
 const Hero = () => {
   return (
     <div id="home" className="relative overflow-hidden app-hero-area">
       {/* Gradient 1 */}
-      <div className="gradient-1__inner h-[600px] w-[600px] absolute -bottom-10 -left-[420px]"></div>
+      <div className="gradient-1__inner h-[600px] w-[600px] absolute -bottom-10 -left-[420px] hidden lg:block"></div>
       <div className="wrapper">
-        <div className="grid items-center min-h-screen gap-10 md:grid-cols-2">
+        <div className="grid items-center lg:min-h-screen md:gap-10 md:grid-cols-2">
           <div>
-            <div className="md:my-20">
-              <h2 className="text-4xl font-semibold">
+            <div className="my-12">
+              <h2 className="text-4xl font-semibold text-center lg:text-left">
                 Hi, I am <span className="name-marker">Rayhan</span>
               </h2>
 
-              <div className="mt-8">
+              <div className="mt-8 text-center lg:text-left">
                 <h1 className="inline-flex flex-col gap-3 text-2xl md:text-3xl">
                   <span className="call-to-action-text call-to-action-text--line-1">
                     I am here for you to build
@@ -25,11 +26,11 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="text-slate-500">
-              <p className="text-xl">
+            <div className="mt-4 lg:m-0 text-slate-500">
+              <p className="text-lg lg:text-lg">
                 I&apos;m a full Stack developer from Bangladesh 🇧🇩.
               </p>
-              <p className="text-xl">
+              <p className="mt-3 text-lg lg:text-lg lg:m-0">
                 I create free + premium courses on{" "}
                 <a
                   target="_blank"
@@ -45,12 +46,12 @@ const Hero = () => {
                 <a
                   download={true}
                   href="https://github.com/kingRayhan/kingrayhan/raw/master/Md.Raihan-Resume.pdf"
-                  className="flex items-center gap-1 text-xl text-blue-600 no-underline hover:underline"
+                  className="flex items-center gap-1 text-base text-blue-600 no-underline lg:text-xl hover:underline"
                 >
                   <span>Download My Resume</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="w-6 h-6"
+                    className="w-5 h-5 lg:w-6 lg:h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -66,11 +67,13 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center order-first h-full bg-slate-200 md:order-none">
-            <img
-              className="object-cover md:w-[32rem] md:h-[32rem] w-40 h-40 my-image"
-              src="https://user-images.githubusercontent.com/7611746/190065088-cd90b830-e694-429b-bddc-ae8040e1238a.jpg"
+          <div className="flex items-center justify-center order-first h-full lg:bg-slate-200 md:order-none">
+            <Image
+              className="image object-cover md:w-[32rem] md:h-[32rem] w-20 h-20 my-image"
+              src="/images/rayhan.jpg"
               alt="My Photo"
+              width={400}
+              height={400}
             />
           </div>
         </div>
