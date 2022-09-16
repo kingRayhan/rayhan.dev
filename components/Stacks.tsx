@@ -40,14 +40,14 @@ const Stacks = () => {
             style={vs}
           >
             {`{
-   "reactjs-visibility"  : "https://github.com/kingRayhan/reactjs-visibility",
-   "ghost-finder"        : "https://github.com/graph-land/quick-crud",
-   "quick-crud"          : "https://github.com/graph-land/quick-crud",
+   "reactjs-visibility"  : "https://www.npmjs.com/package/reactjs-visibility",
+   "ghost-finder"        : "https://www.npmjs.com/package/ghost-finder",
+   "quick-crud"          : "https://www.npmjs.com/package/quick-crud",
+   "mini-php"            : "https://github.com/kingRayhan/mini-php"
    "graphql-placeholder" : "https://graphqlplaceholder.com",
    "bnnum"               : "https://www.npmjs.com/package/bnnum",
    "LineProgressbar"     : "https://kingrayhan.github.io/LineProgressbar/data-attrs-demo.html",
    "react-tabs"          : "https://www.npmjs.com/package/reactjs-tab",
-   "mini-php"            : "https://github.com/kingRayhan/mini-php"
 }`}
           </SyntaxHighlighter>
         </div>
