@@ -45,7 +45,7 @@ const Hero = () => {
               <div className="mt-4">
                 <a
                   download={true}
-                  href="https://github.com/kingRayhan/kingrayhan/raw/master/Md.Raihan-Resume.pdf"
+                  href="https://drive.google.com/file/d/1rYPD28yv2i8Gk9REvw5rzk4_D8LsseUD/view"
                   className="flex items-center gap-1 text-base text-blue-600 no-underline lg:text-xl hover:underline"
                 >
                   <span>Download My Resume</span>
