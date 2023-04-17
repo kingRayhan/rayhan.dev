@@ -29,8 +29,8 @@ const Hero = () => {
             <div className="mt-4 lg:m-0 text-slate-500">
               <p className="text-lg lg:text-lg">
                 👨‍💻 I specialize in building modern web apps using 🔥 React, 🚀
-                Node.js, 🔮 GraphQL & 🍃 MongoDB. Let's create or revamp your
-                website with new 🎉 features. 📲 Contact me to get started!
+                Node.js, 🔮 GraphQL & 🍃 MongoDB. Let&apos;s create or revamp
+                your website with new 🎉 features. 📲 Contact me to get started!
               </p>
               {/* <p className="mt-3 text-lg lg:text-lg lg:m-0">
                 I create free + premium courses on{" "}
