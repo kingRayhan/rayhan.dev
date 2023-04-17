@@ -30,14 +30,19 @@ const WhatIDo = () => {
         />
       </div>
       <div>
-        <h2 className="mb-4 text-2xl lg:text-4xl font-code">What do I help?</h2>
+        <h2 className="mb-4 text-2xl lg:text-4xl font-code">
+          💪 What do I help? 💻
+        </h2>
         <div className="prose lg:prose-lg prose-base max-w-none">
           <p>
-            My name is Rayhan and I&apos;m a full stack web developer, Nodejs
-            wizard. With my 8+ years of freelancing career, I learned a lot of
-            modern webs developing tools and frameworks like Nestjs, Graphql,
-            expressjs, Laravel, reactjs, vuejs, webpack, grunt, sass, jsx,
-            handlebars etc.
+            👋 Hey there! As a developer, I help create 🌈 vibrant, 🚀
+            high-performing, and 🎉 fun web applications that make your
+            competitors say, &ldquo;Why didn&apos;t we think of that?&ldquo;
+            Whether you need a new website or want to revamp an existing one,
+            I&apos;m your go-to guy! I&apos;m skilled in using 🔥 React, 🍃
+            Node.js, 🔮 GraphQL, and 🍀 MongoDB to build scalable and
+            maintainable web applications. Don&apos;t hesitate to reach out and
+            let&apos;s bring some 🤩 magic to your online presence!
           </p>
         </div>
 
