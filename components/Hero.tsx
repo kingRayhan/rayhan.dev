@@ -69,9 +69,9 @@ const Hero = () => {
           </div>
           <div className="flex items-center justify-center order-first h-full lg:bg-slate-200 md:order-none">
             <div className="md:w-[32rem] md:h-[32rem] w-48 h-48 relative overflow-hidden">
-              <Image
+              <img
                 className="object-cover image my-image"
-                src="/images/rayhan.jpg"
+                src="https://avatars.githubusercontent.com/u/7611746?v=4"
                 alt="My Photo"
                 priority={true}
                 layout="fill"
