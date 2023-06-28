@@ -27,6 +27,18 @@ const Hero = () => {
             </div>
 
             <div className="mt-4 lg:m-0 text-slate-500">
+              <p className="mb-4 text-lg lg:text-lg">
+                CTO at{" "}
+                <a
+                  href="https://www.graphland.dev/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  Graphland
+                </a>
+              </p>
+
               <p className="text-lg lg:text-lg">
                 👨‍💻 I specialize in building modern web apps using 🔥 React, 🚀
                 Node.js, 🔮 GraphQL & 🍃 MongoDB. Let&apos;s create or revamp
