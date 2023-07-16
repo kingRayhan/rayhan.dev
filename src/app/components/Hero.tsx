@@ -56,13 +56,12 @@ const Hero = () => {
                 </a>
               </p> */}
 
-              <div className="mt-4">
+              <div className="flex flex-col gap-4 mt-4">
                 <a
                   download={true}
                   href="https://drive.google.com/file/d/1rYPD28yv2i8Gk9REvw5rzk4_D8LsseUD/view"
                   className="flex items-center gap-1 text-base text-blue-600 no-underline lg:text-xl hover:underline"
                 >
-                  <span>Download My Resume</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="w-5 h-5 lg:w-6 lg:h-6"
@@ -77,6 +76,34 @@ const Hero = () => {
                       d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                     />
                   </svg>
+                  <span>Download My Resume</span>
+                </a>
+
+                <a
+                  href="https://cal.com/rayhan-dev/45min"
+                  target="_blank"
+                  className="flex items-center gap-1 text-base text-blue-600 no-underline lg:text-xl hover:underline"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"></path>
+                    <path d="M18 18m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
+                    <path d="M15 3v4"></path>
+                    <path d="M7 3v4"></path>
+                    <path d="M3 11h16"></path>
+                    <path d="M18 16.496v1.504l1 1"></path>
+                  </svg>
+                  <span>Schedule a meeting</span>
                 </a>
               </div>
             </div>
