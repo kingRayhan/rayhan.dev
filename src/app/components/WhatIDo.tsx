@@ -7,7 +7,7 @@ interface ItemProp {
 }
 const Item: React.FC<ItemProp> = ({ image, label }) => {
   return (
-    <div className="text-center">
+    <div className="text-center flex flex-col items-center gap-2">
       <Image src={image} alt={label} height={62} width={62} />
       <p className="text-base font-code">{label}</p>
     </div>
