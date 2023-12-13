@@ -22,7 +22,7 @@ const Stacks = () => {
   "frontend"   : ["Nextjs", "Nuxtjs", "React", "Gatsby", "Vue", "Alpine.js","Jquery" ...more],
   "mobile-app" : ["React Native", "Flutter"]
   "backend"    : ["Apollo-server", "Nestjs", "Express", "Laravel", "Adonisjs", "Django"],
-  "cms"        : ["Ghost", "WordPress", "Strapi", "Contentful", "Shopify"],
+  "cms"        : ["Shopify", "Ghost", "WordPress", "Strapi", "Contentful"],
   "dbms"       : ["Postgres", "MySQL", "Sqlite", "MongoDB", "Firestore", "Redis", "Array 😂"],
   "dbms-orm"   : ["Eloquent(Laravel)", "Prisma", "Mongoose", "Typegoose", "TypeORM", "Sequilize", "knex"]
   "languages"  : ["Dart", "Java", "Python", "Typescript", "Javascript", "PHP"],
