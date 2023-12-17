@@ -11,7 +11,7 @@ const Navbar = () => {
             Rayhan
           </Link>
         </div>
-        <div className="items-center justify-between hidden lg:flex gap-11">
+        <div className="items-center justify-between hidden text-white lg:flex gap-11">
           <Link href={"#home"} className="font-code">
             Home
           </Link>

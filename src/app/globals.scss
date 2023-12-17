@@ -21,7 +21,8 @@
 
 .app-hero-area {
   @media screen and (min-width: 768px) {
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, #e2e8f0 50%);
+    background: url("/images/grits/Gritty-Texture7.png"),
+      linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, #527853 50%);
   }
 }
 
@@ -31,7 +32,7 @@
 
 .syntax-highlighter {
   border: none !important;
-  padding: 0 !important;
+  padding: 10px !important;
   code {
     font-size: 16px !important;
     line-height: 1.9em !important;
@@ -41,6 +42,7 @@
 
 body {
   @apply text-slate-800;
+  background: #f9e8d9 url("/images/blackgrit.png") 0% 0% / 600px;
 }
 
 .wrapper {

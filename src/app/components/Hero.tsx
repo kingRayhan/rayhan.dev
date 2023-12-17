@@ -89,11 +89,11 @@ const Hero = () => {
                     width="24"
                     height="24"
                     viewBox="0 0 24 24"
-                    stroke-width="2"
+                    strokeWidth="2"
                     stroke="currentColor"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   >
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4"></path>
@@ -108,7 +108,7 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          <div className="flex items-center justify-center order-first h-full lg:bg-slate-200 md:order-none">
+          <div className="flex items-center justify-center order-first h-full md:order-none">
             <div className="md:w-[32rem] md:h-[32rem] w-48 h-48 relative overflow-hidden">
               <Image
                 width={400}
