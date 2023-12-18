@@ -21,7 +21,8 @@
 
 .app-hero-area {
   @media screen and (min-width: 768px) {
-    background: url("/images/grits/Gritty-Texture7.png"),
+    background: url("/images/grits/Gritty-Texture7.png") no-repeat top right /
+        800px,
       linear-gradient(90deg, rgba(255, 255, 255, 0) 50%, #527853 50%);
   }
 }
