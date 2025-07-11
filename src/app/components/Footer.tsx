@@ -84,7 +84,7 @@ const Footer = () => {
             <a
               target="_blank"
               rel="noreferrer"
-              href="mailto:rayhan.dev.bd@gmail.com"
+              href="mailto:return0@duck.com"
               className="inline-block px-6 py-2 text-xl bg-yellow-500 lg:float-right font-code"
             >
               Mail Me
